@@ -1,5 +1,5 @@
 import React from 'react'
-// import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 
 import Game from './Game';
 function App() {
@@ -12,6 +12,6 @@ function App() {
   )
 }
 
-export default App;
+// export default App;
 
-// export default withAuthenticator(App);
+export default withAuthenticator(App);
