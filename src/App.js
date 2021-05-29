@@ -7,7 +7,7 @@ function App() {
     <div>
       <h1>Hello from AWS Amplify</h1>
       <Game />,
-      {/* <AmplifySignOut /> */}
+      <AmplifySignOut />
     </div>
   )
 }
